@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+                    ul{list-style:none;}
+             li{display:inline-flex; margin-right:80px; border:5px solid #00ff80; padding:30px; cursor:pointer;}
+             li:hover{color:red; border-right:2px solid blue;}
+              .now,.nav{background:yellow;}
+  p{
+     color: blue;
+}
+
+    div{
+        background-color:white;
+        padding:20px;
+}
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tittle style="background-color:greenyellow;" >MEDI AND SONS ONLINE SAVING REGISTRATION FORM</tittle><hr>
+    <!--Link to external CSS file-->
+    <link rel="stylesheet" type="text/css" href="fom.css">
+    
+   
+
+</head>
+<body style="background-color:lightskyblue; padding:none;">
+ <div class="container"></div>
+     <h1>FOR MORE INFORMATION ON OUR SERVICES</h1>
+       <ul>
+         <li><a href="form.html">Home</a></li>
+         <li>About as</li>
+         <li>Contact as</li>
+         <li>Inquire</li></ul> 
+     <h2>SAVING REGISTRATION FORM</h2>
+     <form action="/submit_registration" method="POST"></form>
+           <!--participant information section-->
+           <label> 
+         FULL NAME</label
+           <input type="text" id="name" name="name" required placeholder="Enter your full name">
+           <label
+            for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your full email address">
+            <label
+             for="phone">phone number</label>
+             <input type="tel" id="phone" name="phone" required plaveholder="Enter your phone number">
+             <label 
+             for="dob">date of birth</label>
+             <input type="date" id="dob" name="dob"required>
+             <!--Financial commitment section-->
+                <label
+                 for="contribution">Monthly contribution (in $)</label>
+                 <input type="number" id="contribution" requiredplaceholder="Enter monthly contribution amount">
+                 <label
+                  for="start_date">preferred start date</label>
+                <input type="date" id="start_date" name="start_date"required>
+                <label 
+                for="payment method">payment method</label>
+                <select
+                 id="payment_method" name="payment _method required"></select>
+                   <option
+                    value="bank_transfer"> Bank transfer</option>
+                     <option
+                      value="Cash">Cash</option>
+                      <option value="mobile_payment">mobile mobile payment</option>
+                    </select>
+                    <label
+                     for="payout_order">preferred payment order</label>
+                     <input type="number" id="payout_order" name="payout_order" placeholder="Enter your preferred payout order (1 for first,etc.">
+                      <!--Bank account Details-->
+                      <label
+                       for="bank_name">Bank name</label>
+                       <input type="text" id="bank_name" placeholder="Enter your bank name">
+                       <label
+                        for="account_number">Bank Account number</label>
+                        <input type="text" id="account_number" name="account_number" placeholder="Enter your bank account number">
+                        <label
+                         for="branch_code">Branch code (IFSC)</label>
+                         <input type="text" id="branch_code" name="branch_code" placeholder="Enter the branch code  or IFSC">
+                         <!--Emergency contact-->
+                         <label 
+                         for-="Emergency_contact">Emergency contact name</label>
+                         <input type="text" id="emergency_contact" name="emergency_contact" placeholder="Enter emergency contact's name">
+                         <label
+                          for="emergency_contact_phone">Emergency contact phone</label>
+                          <input type="tel" id="emergency_contact_phone" name="emergency_contact_phone" placeholder="Enter emergency cpontact's phone number">
+                          <!--participat agreement section-->
+                          <label for="agrement">agreement</label> 
+                          <textarea id="agreement" namr="agreement" row="4" readonly>I hereby agree to the terms and contions of the saving circle and understand my financial obligations</textarea>
+                           <label>
+                              <input type="checkbox" name="terms" required> i agree to the terms and conductions
+                           </label>
+                           <!--submit button-->
+                           <button
+                           type="submit">submit Registration</button></body><form action=""></form>
+                        </div>     
+
+
+
+
+                      
+
+   
+</body>
+
+</html>
